@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Palmgren, Kokkonen, Bruun"
+  },
+  "text": {
+    "more": "A network map with context codes (n \u003d 9), articles (n \u003d 122), and links between articles and context codes (n \u003d 156). Numbers refer to each article’s number (see the Supplemental Material [157]). Size of nodes is proportional to the number of the node’s connections. Colors indicate the thematic category assigned to each article.\nFrom Palmgren et al 2025. ",
+    "intro": "A network map with context codes (n \u003d 9), articles (n \u003d 122), and links between articles and context codes (n \u003d 156). Numbers refer to each article’s number (see the Supplemental Material [157]). Size of nodes is proportional to the number of the node’s connections. Colors indicate the thematic category assigned to each article.",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "Connection",
+    "colorLabel": "Inclusion category",
+    "nodeLabel": "Papers and context"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "inclusion category",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
