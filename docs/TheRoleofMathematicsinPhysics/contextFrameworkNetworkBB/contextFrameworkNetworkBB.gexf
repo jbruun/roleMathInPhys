@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2025-07-11">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="v_name" title="name" type="string"/>
+      <attribute id="v_id" title="id" type="string"/>
+      <attribute id="v_membership" title="membership" type="double"/>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="n0" label="science">
+        <attvalues>
+          <attvalue for="v_name" value="science"/>
+          <attvalue for="v_id" value="science"/>
+          <attvalue for="v_membership" value="1.0"/>
+          <attvalue for="weighted degree" value="7.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-276.52377" y="88.08789"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n1" label="electricity and magnetism">
+        <attvalues>
+          <attvalue for="v_name" value="electricity and magnetism"/>
+          <attvalue for="v_id" value="electricity and magnetism"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="31.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="104.620575" y="-0.861881"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n2" label="mechanics">
+        <attvalues>
+          <attvalue for="v_name" value="mechanics"/>
+          <attvalue for="v_id" value="mechanics"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="79.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-63.997787" y="-49.82379"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n3" label="thermodynamics">
+        <attvalues>
+          <attvalue for="v_name" value="thermodynamics"/>
+          <attvalue for="v_id" value="thermodynamics"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="10.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-93.89953" y="0.65436316"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n4" label="quantum mechanics">
+        <attvalues>
+          <attvalue for="v_name" value="quantum mechanics"/>
+          <attvalue for="v_id" value="quantum mechanics"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="14.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="66.81067" y="-54.57726"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n5" label="general relativity">
+        <attvalues>
+          <attvalue for="v_name" value="general relativity"/>
+          <attvalue for="v_id" value="general relativity"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="8.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="50.619274" y="-0.05528164"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n6" label="unclear.context">
+        <attvalues>
+          <attvalue for="v_name" value="unclear.context"/>
+          <attvalue for="v_id" value="unclear.context"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="7.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="22.564398" y="209.97937"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n7" label="optics">
+        <attvalues>
+          <attvalue for="v_name" value="optics"/>
+          <attvalue for="v_id" value="optics"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="3.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-90.41828" y="-203.0835"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n8" label="atomic physics">
+        <attvalues>
+          <attvalue for="v_name" value="atomic physics"/>
+          <attvalue for="v_id" value="atomic physics"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="4.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-69.37279" y="-143.45828"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n9" label="constructivism">
+        <attvalues>
+          <attvalue for="v_name" value="constructivism"/>
+          <attvalue for="v_id" value="constructivism"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="7.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-10.149266" y="33.272713"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n10" label="students' epistemologies">
+        <attvalues>
+          <attvalue for="v_name" value="students' epistemologies"/>
+          <attvalue for="v_id" value="students' epistemologies"/>
+          <attvalue for="v_membership" value="3.0"/>
+          <attvalue for="weighted degree" value="14.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="388.80624" y="71.83473"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n11" label="conceptions">
+        <attvalues>
+          <attvalue for="v_name" value="conceptions"/>
+          <attvalue for="v_id" value="conceptions"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="13.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-41.50359" y="107.16982"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n12" label="process-object layered framework">
+        <attvalues>
+          <attvalue for="v_name" value="process-object layered framework"/>
+          <attvalue for="v_id" value="process-object layered framework"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="4.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-134.96828" y="16.44411"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n13" label="external representations">
+        <attvalues>
+          <attvalue for="v_name" value="external representations"/>
+          <attvalue for="v_id" value="external representations"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="7.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-79.17951" y="-76.49387"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n14" label="modeling">
+        <attvalues>
+          <attvalue for="v_name" value="modeling"/>
+          <attvalue for="v_id" value="modeling"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="6.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-181.15831" y="-46.187767"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n15" label="achievement">
+        <attvalues>
+          <attvalue for="v_name" value="achievement"/>
+          <attvalue for="v_id" value="achievement"/>
+          <attvalue for="v_membership" value="1.0"/>
+          <attvalue for="weighted degree" value="6.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-362.79996" y="129.47012"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="n16" label="resources">
+        <attvalues>
+          <attvalue for="v_name" value="resources"/>
+          <attvalue for="v_id" value="resources"/>
+          <attvalue for="v_membership" value="3.0"/>
+          <attvalue for="weighted degree" value="14.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="376.2904" y="112.66677"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n17" label="problem solving">
+        <attvalues>
+          <attvalue for="v_name" value="problem solving"/>
+          <attvalue for="v_id" value="problem solving"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="6.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-174.368" y="-108.63123"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n18" label="other.framework">
+        <attvalues>
+          <attvalue for="v_name" value="other.framework"/>
+          <attvalue for="v_id" value="other.framework"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="30.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-11.873696" y="-66.59372"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n19" label="concept image">
+        <attvalues>
+          <attvalue for="v_name" value="concept image"/>
+          <attvalue for="v_id" value="concept image"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="2.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="240.37778" y="-5.634161"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n20" label="conceptual blending">
+        <attvalues>
+          <attvalue for="v_name" value="conceptual blending"/>
+          <attvalue for="v_id" value="conceptual blending"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="4.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="165.06442" y="-85.12023"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n21" label="history of science">
+        <attvalues>
+          <attvalue for="v_name" value="history of science"/>
+          <attvalue for="v_id" value="history of science"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="6.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1.4038223" y="-165.56398"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n22" label="ACER">
+        <attvalues>
+          <attvalue for="v_name" value="ACER"/>
+          <attvalue for="v_id" value="ACER"/>
+          <attvalue for="v_membership" value="3.0"/>
+          <attvalue for="weighted degree" value="12.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="286.26175" y="61.967815"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="n23" label="unclear.framework">
+        <attvalues>
+          <attvalue for="v_name" value="unclear.framework"/>
+          <attvalue for="v_id" value="unclear.framework"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="6.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="103.18434" y="137.7481"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n24" label="symbolic forms">
+        <attvalues>
+          <attvalue for="v_name" value="symbolic forms"/>
+          <attvalue for="v_id" value="symbolic forms"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="6.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-146.93466" y="-159.15506"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n25" label="formal analogies">
+        <attvalues>
+          <attvalue for="v_name" value="formal analogies"/>
+          <attvalue for="v_id" value="formal analogies"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="4.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="40.53177" y="-91.46357"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="n26" label="distributed cognition">
+        <attvalues>
+          <attvalue for="v_name" value="distributed cognition"/>
+          <attvalue for="v_id" value="distributed cognition"/>
+          <attvalue for="v_membership" value="2.0"/>
+          <attvalue for="weighted degree" value="4.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="90.3224" y="-97.53632"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="n0" target="n12"/>
+      <edge id="1" source="n0" target="n15" weight="6.0"/>
+      <edge id="2" source="n1" target="n2" weight="13.0"/>
+      <edge id="3" source="n1" target="n5" weight="2.0"/>
+      <edge id="4" source="n1" target="n9" weight="2.0"/>
+      <edge id="5" source="n1" target="n19" weight="2.0"/>
+      <edge id="6" source="n1" target="n20" weight="3.0"/>
+      <edge id="7" source="n1" target="n22" weight="4.0"/>
+      <edge id="8" source="n1" target="n23" weight="3.0"/>
+      <edge id="9" source="n1" target="n25"/>
+      <edge id="10" source="n1" target="n26"/>
+      <edge id="11" source="n2" target="n3" weight="5.0"/>
+      <edge id="12" source="n2" target="n5" weight="2.0"/>
+      <edge id="13" source="n2" target="n7" weight="3.0"/>
+      <edge id="14" source="n2" target="n8" weight="2.0"/>
+      <edge id="15" source="n2" target="n9" weight="2.0"/>
+      <edge id="16" source="n2" target="n11" weight="9.0"/>
+      <edge id="17" source="n2" target="n12"/>
+      <edge id="18" source="n2" target="n13" weight="5.0"/>
+      <edge id="19" source="n2" target="n14" weight="6.0"/>
+      <edge id="20" source="n2" target="n17" weight="6.0"/>
+      <edge id="21" source="n2" target="n18" weight="13.0"/>
+      <edge id="22" source="n2" target="n21" weight="5.0"/>
+      <edge id="23" source="n2" target="n24" weight="6.0"/>
+      <edge id="24" source="n2" target="n25"/>
+      <edge id="25" source="n3" target="n18" weight="5.0"/>
+      <edge id="26" source="n4" target="n5" weight="2.0"/>
+      <edge id="27" source="n4" target="n18" weight="10.0"/>
+      <edge id="28" source="n4" target="n25"/>
+      <edge id="29" source="n4" target="n26"/>
+      <edge id="30" source="n5" target="n9" weight="2.0"/>
+      <edge id="31" source="n6" target="n11" weight="4.0"/>
+      <edge id="32" source="n6" target="n23" weight="3.0"/>
+      <edge id="33" source="n8" target="n18" weight="2.0"/>
+      <edge id="34" source="n9" target="n12"/>
+      <edge id="35" source="n10" target="n16" weight="10.0"/>
+      <edge id="36" source="n10" target="n22" weight="4.0"/>
+      <edge id="37" source="n12" target="n13"/>
+      <edge id="38" source="n13" target="n26"/>
+      <edge id="39" source="n16" target="n22" weight="4.0"/>
+      <edge id="40" source="n20" target="n26"/>
+      <edge id="41" source="n21" target="n25"/>
+    </edges>
+  </graph>
+</gexf>

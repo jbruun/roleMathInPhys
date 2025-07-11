@@ -1,0 +1,3219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2025-07-11">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="article" title="article" type="string"/>
+      <attribute id="year" title="year" type="integer"/>
+      <attribute id="inclusion category" title="inclusion category" type="integer"/>
+      <attribute id="type of study" title="type of study" type="string"/>
+      <attribute id="age group" title="age group" type="string"/>
+      <attribute id="sample size" title="sample size" type="string"/>
+      <attribute id="context" title="context" type="string"/>
+      <attribute id="framework" title="framework" type="string"/>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="nodecolor-multimode" title="Node Color Multimode" type="string">
+        <default>black</default>
+      </attribute>
+      <attribute id="no." title="no." type="integer"/>
+      <attribute id="pageranks" title="PageRank" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Akatugba &amp; Wallace (2009)" label="1">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Akatugba &amp; Wallace (2009)"/>
+          <attvalue for="year" value="2009"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="constructivism"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="1"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1091.959" y="2853.8167"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="science" label="Science">
+        <attvalues>
+          <attvalue for="degree" value="12"/>
+          <attvalue for="inclusion category" value="0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.007871198568872988"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="blue"/>
+          <attvalue for="pageranks" value="0.046232733614276274"/>
+        </attvalues>
+        <viz:size value="16.6"/>
+        <viz:position x="1137.3938" y="2934.2727"/>
+        <viz:color r="200" g="197" b="201"/>
+      </node>
+      <node id="Al-Omari &amp; Miqdadi (2014)" label="2">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Al-Omari &amp; Miqdadi (2014)"/>
+          <attvalue for="year" value="2014"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="2"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="430.88812" y="3047.187"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="electricity and magnetism" label="Electricity and magnetism">
+        <attvalues>
+          <attvalue for="degree" value="40"/>
+          <attvalue for="inclusion category" value="0"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.4618834080717489"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.601941747572816"/>
+          <attvalue for="betweenesscentrality" value="0.2927369615123201"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="blue"/>
+          <attvalue for="pageranks" value="0.11190925303904137"/>
+        </attvalues>
+        <viz:size value="33.4"/>
+        <viz:position x="485.95474" y="2818.9678"/>
+        <viz:color r="200" g="197" b="201"/>
+      </node>
+      <node id="Albe et al. (2001)" label="3">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Albe et al. (2001)"/>
+          <attvalue for="year" value="2001"/>
+          <attvalue for="inclusion category" value="3"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="3"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="799.28217" y="2934.0251"/>
+        <viz:color r="0" g="189" b="148"/>
+      </node>
+      <node id="Amos &amp; Heckler (2018)" label="4">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Amos &amp; Heckler (2018)"/>
+          <attvalue for="year" value="2018"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="process-object layered framework"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="4"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1155.281" y="3073.3992"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Angell et al. (2008)" label="5">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Angell et al. (2008)"/>
+          <attvalue for="year" value="2008"/>
+          <attvalue for="inclusion category" value="2"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="external representations + modeling"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="5"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="493.862" y="2344.0215"/>
+        <viz:color r="211" g="179" b="176"/>
+      </node>
+      <node id="mechanics" label="Mechanics">
+        <attvalues>
+          <attvalue for="degree" value="51"/>
+          <attvalue for="inclusion category" value="0"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.5124378109452736"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.6731391585760521"/>
+          <attvalue for="betweenesscentrality" value="0.38898991975019015"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="blue"/>
+          <attvalue for="pageranks" value="0.1443242980062673"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:position x="242.08997" y="2367.6099"/>
+        <viz:color r="200" g="197" b="201"/>
+      </node>
+      <node id="Badmus &amp; Jita (2023)" label="6">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Badmus &amp; Jita (2023)"/>
+          <attvalue for="year" value="2023"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="achievement"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="6"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1042.8424" y="2818.92"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Bajracharya &amp; Thompson (2016)" label="7">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Bajracharya &amp; Thompson (2016)"/>
+          <attvalue for="year" value="2016"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism + thermodynamics"/>
+          <attvalue for="framework" value="resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.34219269102990035"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3899676375404531"/>
+          <attvalue for="betweenesscentrality" value="0.00951015550496685"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="7"/>
+          <attvalue for="pageranks" value="0.005835087214250155"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="185.08763" y="2809.0852"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="thermodynamics" label="Thermodynamics">
+        <attvalues>
+          <attvalue for="degree" value="14"/>
+          <attvalue for="inclusion category" value="0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.37184115523465705"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.43122977346278335"/>
+          <attvalue for="betweenesscentrality" value="0.08666332621664947"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="blue"/>
+          <attvalue for="pageranks" value="0.03815034879196031"/>
+        </attvalues>
+        <viz:size value="17.8"/>
+        <viz:position x="-101.7512" y="2701.4385"/>
+        <viz:color r="200" g="197" b="201"/>
+      </node>
+      <node id="Bajracharya et al. (2019)" label="8">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Bajracharya et al. (2019)"/>
+          <attvalue for="year" value="2019"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="thermodynamics"/>
+          <attvalue for="framework" value="external representations + problem solving"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2717678100263852"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2923948220064725"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="8"/>
+          <attvalue for="pageranks" value="0.0034591624878220007"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-292.8213" y="2740.731"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Bing &amp; Redish (2008)" label="9">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Bing &amp; Redish (2008)"/>
+          <attvalue for="year" value="2008"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="other"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="9"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-354.8611" y="3148.476"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="quantum mechanics" label="Quantum mechanics">
+        <attvalues>
+          <attvalue for="degree" value="18"/>
+          <attvalue for="inclusion category" value="0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3800738007380074"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4546925566343046"/>
+          <attvalue for="betweenesscentrality" value="0.14620581825812903"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="blue"/>
+          <attvalue for="pageranks" value="0.05246343144728472"/>
+        </attvalues>
+        <viz:size value="20.2"/>
+        <viz:position x="-93.2745" y="3013.2092"/>
+        <viz:color r="200" g="197" b="201"/>
+      </node>
+      <node id="Bing &amp; Redish (2009)" label="10">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Bing &amp; Redish (2009)"/>
+          <attvalue for="year" value="2009"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="10"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-119.87529" y="2185.4143"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Bollen et al. (2015)" label="11">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Bollen et al. (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="concept image"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="11"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="657.7135" y="2754.8982"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Bollen et al. (2016)" label="12">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Bollen et al. (2016)"/>
+          <attvalue for="year" value="2016"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="conceptual blending"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="12"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="520.62305" y="2974.8672"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Branchetti et al. (2019)" label="13">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Branchetti et al. (2019)"/>
+          <attvalue for="year" value="2019"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="quantum mechanics + thermodynamics"/>
+          <attvalue for="framework" value="history of science + other"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2968299711815562"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3352750809061488"/>
+          <attvalue for="betweenesscentrality" value="0.005101171157794009"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="13"/>
+          <attvalue for="pageranks" value="0.005934455498224739"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="-195.69775" y="2882.7437"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Brush (2015)" label="14">
+        <attvalues>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="article" value="Brush (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="general relativity + mechanics + quantum mechanics + thermodynamics"/>
+          <attvalue for="framework" value="history of science"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4103585657370518"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4587378640776699"/>
+          <attvalue for="betweenesscentrality" value="0.036430813807829435"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="14"/>
+          <attvalue for="pageranks" value="0.010650524074951836"/>
+        </attvalues>
+        <viz:size value="11.8"/>
+        <viz:position x="5.027157" y="2812.4275"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="general relativity" label="General relativity">
+        <attvalues>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="inclusion category" value="0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.34219269102990035"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3576051779935275"/>
+          <attvalue for="betweenesscentrality" value="0.0020456152834293804"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="blue"/>
+          <attvalue for="pageranks" value="0.00817043780537002"/>
+        </attvalues>
+        <viz:size value="11.2"/>
+        <viz:position x="153.52068" y="2904.7573"/>
+        <viz:color r="200" g="197" b="201"/>
+      </node>
+      <node id="Burkholder et al. (2020)" label="15">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Burkholder et al. (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="problem solving"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="15"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="13.24161" y="2353.0427"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Burkholder et al. (2021)" label="16">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Burkholder et al. (2021)"/>
+          <attvalue for="year" value="2021"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics"/>
+          <attvalue for="framework" value="achievement"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41700404858299595"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4555016181229774"/>
+          <attvalue for="betweenesscentrality" value="0.009316054749619504"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="16"/>
+          <attvalue for="pageranks" value="0.0059242209599746996"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="413.62747" y="2632.1077"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Caballero et al. (2015)" label="17">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Caballero et al. (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="ACER + resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="17"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1126.8069" y="2315.0073"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="unclear" label="Unclear">
+        <attvalues>
+          <attvalue for="degree" value="13"/>
+          <attvalue for="inclusion category" value="0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.009302325581395349"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="blue"/>
+          <attvalue for="pageranks" value="0.049741746871368696"/>
+        </attvalues>
+        <viz:size value="17.2"/>
+        <viz:position x="1136.6686" y="2412.2434"/>
+        <viz:color r="200" g="197" b="201"/>
+      </node>
+      <node id="Campuzano et al. (2018)" label="18">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Campuzano et al. (2018)"/>
+          <attvalue for="year" value="2018"/>
+          <attvalue for="inclusion category" value="2"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="18"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="302.08652" y="2147.3696"/>
+        <viz:color r="211" g="179" b="176"/>
+      </node>
+      <node id="Capizzo (2006)" label="19">
+        <attvalues>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="article" value="Capizzo (2006)"/>
+          <attvalue for="year" value="2006"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics + optics + thermodynamics"/>
+          <attvalue for="framework" value="achievement"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4497816593886463"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4854368932038835"/>
+          <attvalue for="betweenesscentrality" value="0.033054453287783"/>
+          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="19"/>
+          <attvalue for="pageranks" value="0.01055488043019579"/>
+        </attvalues>
+        <viz:size value="11.8"/>
+        <viz:position x="200.082" y="2649.591"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="optics" label="Optics">
+        <attvalues>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="inclusion category" value="0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.34207119741100295"/>
+          <attvalue for="betweenesscentrality" value="9.865516533743184E-4"/>
+          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="nodecolor-multimode" value="blue"/>
+          <attvalue for="pageranks" value="0.008183583718330459"/>
+        </attvalues>
+        <viz:size value="11.2"/>
+        <viz:position x="185.77017" y="2544.4414"/>
+        <viz:color r="200" g="197" b="201"/>
+      </node>
+      <node id="Carli et al. (2020)" label="20">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Carli et al. (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="20"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="68.06894" y="2272.8796"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Carrejo &amp; Marshall (2007)" label="21">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Carrejo &amp; Marshall (2007)"/>
+          <attvalue for="year" value="2007"/>
+          <attvalue for="inclusion category" value="1"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="modeling + other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="21"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="434.9773" y="2315.6218"/>
+        <viz:color r="255" g="175" b="187"/>
+      </node>
+      <node id="Ceuppens et al. (2018)" label="22">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Ceuppens et al. (2018)"/>
+          <attvalue for="year" value="2018"/>
+          <attvalue for="inclusion category" value="3"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="middle school"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="external representations"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="22"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="24.085432" y="2303.6475"/>
+        <viz:color r="0" g="189" b="148"/>
+      </node>
+      <node id="Chari et al. (2019)" label="23">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Chari et al. (2019)"/>
+          <attvalue for="year" value="2019"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate + university instructor"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="other + problem solving + students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="23"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="716.8996" y="2788.1523"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="de Ataide &amp; Greca (2013)" label="24">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="de Ataide &amp; Greca (2013)"/>
+          <attvalue for="year" value="2013"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="thermodynamics"/>
+          <attvalue for="framework" value="history of science + students' epistemologies"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2717678100263852"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2923948220064725"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="24"/>
+          <attvalue for="pageranks" value="0.0034591624878220007"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-352.6292" y="2707.9233"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="De Lozano &amp; Cardenas (2002)" label="25">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="De Lozano &amp; Cardenas (2002)"/>
+          <attvalue for="year" value="2002"/>
+          <attvalue for="inclusion category" value="3"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="unclear"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="25"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="275.72772" y="2050.75"/>
+        <viz:color r="0" g="189" b="148"/>
+      </node>
+      <node id="de Winter &amp; Airey (2022)" label="26">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="de Winter &amp; Airey (2022)"/>
+          <attvalue for="year" value="2022"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="pre-service teachers"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="26"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1254.0767" y="2342.4385"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Dini &amp; Hammer (2017)" label="27">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Dini &amp; Hammer (2017)"/>
+          <attvalue for="year" value="2017"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="graduate"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="27"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-314.11774" y="3104.3208"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Domert et al. (2007)" label="28">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Domert et al. (2007)"/>
+          <attvalue for="year" value="2007"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate + graduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="28"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="139.65309" y="2168.0886"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Doughty et al. (2014)" label="29">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Doughty et al. (2014)"/>
+          <attvalue for="year" value="2014"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="concept image"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="29"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="764.8114" y="2822.8079"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Dreyfus et al. (2017)" label="30">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Dreyfus et al. (2017)"/>
+          <attvalue for="year" value="2017"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="symbolic forms"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="30"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-277.36078" y="3039.3765"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Forinash et al. (2000)" label="31">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Forinash et al. (2000)"/>
+          <attvalue for="year" value="2000"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="history of science"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="31"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="411.0842" y="2129.8909"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Galili (2018)" label="32">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Galili (2018)"/>
+          <attvalue for="year" value="2018"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics"/>
+          <attvalue for="framework" value="other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41700404858299595"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4555016181229774"/>
+          <attvalue for="betweenesscentrality" value="0.009316054749619504"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="32"/>
+          <attvalue for="pageranks" value="0.0059242209599746996"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="414.4575" y="2515.2039"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Gifford &amp; Finkelstein (2020)" label="33">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Gifford &amp; Finkelstein (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="other + students' epistemologies"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="33"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-92.90699" y="3247.8098"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Gifford &amp; Finkelstein (2021)" label="34">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Gifford &amp; Finkelstein (2021)"/>
+          <attvalue for="year" value="2021"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="other + students' epistemologies"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="34"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-214.204" y="3162.1929"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Gingras (2015)" label="35">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Gingras (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="formal analogies + history of science"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="35"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-236.9645" y="3104.094"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Gire &amp; Price (2014)" label="36">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Gire &amp; Price (2014)"/>
+          <attvalue for="year" value="2014"/>
+          <attvalue for="inclusion category" value="3"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="conceptual blending + distributed cognition"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="36"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="758.62854" y="2882.4993"/>
+        <viz:color r="0" g="189" b="148"/>
+      </node>
+      <node id="Gire &amp; Price (2015)" label="37">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Gire &amp; Price (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="3"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="distributed cognition + external representations"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="37"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-215.62778" y="3240.858"/>
+        <viz:color r="0" g="189" b="148"/>
+      </node>
+      <node id="Greca &amp; Moreira (2002)" label="38">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Greca &amp; Moreira (2002)"/>
+          <attvalue for="year" value="2002"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics"/>
+          <attvalue for="framework" value="modeling"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41700404858299595"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4555016181229774"/>
+          <attvalue for="betweenesscentrality" value="0.009316054749619504"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="38"/>
+          <attvalue for="pageranks" value="0.0059242209599746996"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="329.6282" y="2658.8167"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Gupta &amp; Elby (2011)" label="39">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Gupta &amp; Elby (2011)"/>
+          <attvalue for="year" value="2011"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="39"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="255.32071" y="2186.3665"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Hadfield &amp; Wieman (2010)" label="40">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Hadfield &amp; Wieman (2010)"/>
+          <attvalue for="year" value="2010"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="thermodynamics"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2717678100263852"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2923948220064725"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="40"/>
+          <attvalue for="pageranks" value="0.0034591624878220007"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-314.81036" y="2779.4717"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Hansson et al. (2015)" label="41">
+        <attvalues>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="article" value="Hansson et al. (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="2"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="atomic physics + electricity and magnetism + mechanics + optics"/>
+          <attvalue for="framework" value="modeling + other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.42386831275720166"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4684466019417476"/>
+          <attvalue for="betweenesscentrality" value="0.022355688373276447"/>
+          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="41"/>
+          <attvalue for="pageranks" value="0.010807715003153527"/>
+        </attvalues>
+        <viz:size value="11.8"/>
+        <viz:position x="268.9491" y="2656.0173"/>
+        <viz:color r="211" g="179" b="176"/>
+      </node>
+      <node id="atomic physics" label="Atomic physics">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="inclusion category" value="0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30029154518950435"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3241100323624591"/>
+          <attvalue for="betweenesscentrality" value="3.2052527462564156E-4"/>
+          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="nodecolor-multimode" value="blue"/>
+          <attvalue for="pageranks" value="0.006044954833880992"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="88.35021" y="2559.151"/>
+        <viz:color r="200" g="197" b="201"/>
+      </node>
+      <node id="Haestoe et al. (2019)" label="42">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Haestoe et al. (2019)"/>
+          <attvalue for="year" value="2019"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="other"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="42"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1253.6125" y="2869.0542"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Holmberg &amp; Bernhard (2017)" label="43">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Holmberg &amp; Bernhard (2017)"/>
+          <attvalue for="year" value="2017"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="university researchers + instructors + other experts"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="conceptions + other"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="43"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1053.6486" y="3060.5469"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Hu &amp; Rebello (2013a)" label="44">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Hu &amp; Rebello (2013a)"/>
+          <attvalue for="year" value="2013"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="other + resources"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="44"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="686.6439" y="2709.224"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Hu &amp; Rebello (2013b)" label="45">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Hu &amp; Rebello (2013b)"/>
+          <attvalue for="year" value="2013"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="conceptual blending"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="45"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="648.3362" y="2825.1086"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Hu &amp; Rebello (2014)" label="46">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Hu &amp; Rebello (2014)"/>
+          <attvalue for="year" value="2014"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="46"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="653.997" y="3049.4978"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Hull et al. (2013)" label="47">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Hull et al. (2013)"/>
+          <attvalue for="year" value="2013"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="other + problem solving"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="47"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="99.29281" y="2113.3032"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Ibrahim et al. (2017)" label="48">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Ibrahim et al. (2017)"/>
+          <attvalue for="year" value="2017"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="problem solving"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="48"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="323.58038" y="2210.2148"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Izsak (2000)" label="49">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Izsak (2000)"/>
+          <attvalue for="year" value="2000"/>
+          <attvalue for="inclusion category" value="1"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="middle school"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="external representations + symbolic forms"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="49"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="19.28826" y="2210.7195"/>
+        <viz:color r="255" g="175" b="187"/>
+      </node>
+      <node id="Jensen et al. (2017)" label="50">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Jensen et al. (2017)"/>
+          <attvalue for="year" value="2017"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics"/>
+          <attvalue for="framework" value="problem solving"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41700404858299595"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4555016181229774"/>
+          <attvalue for="betweenesscentrality" value="0.009316054749619504"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="50"/>
+          <attvalue for="pageranks" value="0.0059242209599746996"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="529.68994" y="2599.2644"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Kanderakis (2016)" label="51">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Kanderakis (2016)"/>
+          <attvalue for="year" value="2016"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="mechanics + thermodynamics"/>
+          <attvalue for="framework" value="history of science + modeling"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.36395759717314485"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.41181229773462785"/>
+          <attvalue for="betweenesscentrality" value="0.008124816590544863"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="51"/>
+          <attvalue for="pageranks" value="0.005862420553429615"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="17.292889" y="2524.8462"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Kapucu (2014)" label="52">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Kapucu (2014)"/>
+          <attvalue for="year" value="2014"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="52"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1219.7406" y="2532.766"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Kapucu et al. (2016)" label="53">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Kapucu et al. (2016)"/>
+          <attvalue for="year" value="2016"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="53"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1310.4565" y="2398.604"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Karakok (2019)" label="54">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Karakok (2019)"/>
+          <attvalue for="year" value="2019"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="other"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="54"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-262.7268" y="3204.3403"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Karam (2014)" label="55">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Karam (2014)"/>
+          <attvalue for="year" value="2014"/>
+          <attvalue for="inclusion category" value="2"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="unclear"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="55"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="774.0962" y="3008.7737"/>
+        <viz:color r="211" g="179" b="176"/>
+      </node>
+      <node id="Karam &amp; Krey (2015)" label="56">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Karam &amp; Krey (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="mechanics + optics"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.34219269102990035"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38996763754045305"/>
+          <attvalue for="betweenesscentrality" value="0.00204031111007855"/>
+          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="56"/>
+          <attvalue for="pageranks" value="0.005864831383884566"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="180.78436" y="2472.6929"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Kneubil &amp; Robilotta (2015)" label="57">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Kneubil &amp; Robilotta (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="unclear"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="57"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="558.7157" y="3026.7515"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Kragh (2015)" label="58">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Kragh (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="history of science"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="58"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1055.278" y="2283.6428"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Kuo et al. (2012)" label="59">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Kuo et al. (2012)"/>
+          <attvalue for="year" value="2012"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="conceptual blending + symbolic forms"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="59"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="467.8317" y="2181.6282"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Kuo et al. (2020)" label="60">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Kuo et al. (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="60"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="198.64165" y="2077.7825"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Kustusch et al. (2014)" label="61">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Kustusch et al. (2014)"/>
+          <attvalue for="year" value="2014"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="university researchers + instructors + other experts"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="thermodynamics"/>
+          <attvalue for="framework" value="other + students' epistemologies"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2717678100263852"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2923948220064725"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="61"/>
+          <attvalue for="pageranks" value="0.0034591624878220007"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-305.89062" y="2592.0642"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Lichtenberger et al. (2017)" label="62">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Lichtenberger et al. (2017)"/>
+          <attvalue for="year" value="2017"/>
+          <attvalue for="inclusion category" value="3"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="external representations"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="62"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="165.94345" y="2252.9492"/>
+        <viz:color r="0" g="189" b="148"/>
+      </node>
+      <node id="Liu (2022)" label="63">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Liu (2022)"/>
+          <attvalue for="year" value="2022"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate + scientist"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="history of science"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="63"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="390.2996" y="2179.669"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Liu &amp; Liu (2011)" label="64">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Liu &amp; Liu (2011)"/>
+          <attvalue for="year" value="2011"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="pre-service teachers"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="unclear"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="64"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1180.379" y="2293.7156"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Lopez-Gay et al. (2015)" label="65">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Lopez-Gay et al. (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="high school + undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="atomic physics + mechanics"/>
+          <attvalue for="framework" value="conceptions + other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.34219269102990035"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38996763754045305"/>
+          <attvalue for="betweenesscentrality" value="0.00365779440198045"/>
+          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="65"/>
+          <attvalue for="pageranks" value="0.006115255126387354"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="75.719955" y="2432.2886"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Lyublinskaya &amp; Petrova (2021)" label="66">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Lyublinskaya &amp; Petrova (2021)"/>
+          <attvalue for="year" value="2021"/>
+          <attvalue for="inclusion category" value="2"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="in-service teachers"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="unclear"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="66"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1091.7224" y="2553.615"/>
+        <viz:color r="211" g="179" b="176"/>
+      </node>
+      <node id="Ma &amp; Ma (2005)" label="67">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Ma &amp; Ma (2005)"/>
+          <attvalue for="year" value="2005"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="middle + high school"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="achievement"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="67"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1291.3812" y="2972.482"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Manogue et al. (2006)" label="68">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Manogue et al. (2006)"/>
+          <attvalue for="year" value="2006"/>
+          <attvalue for="inclusion category" value="2"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="unclear"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="68"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="703.08044" y="2952.4858"/>
+        <viz:color r="211" g="179" b="176"/>
+      </node>
+      <node id="Mantyla &amp; Hamalainen (2015)" label="69">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Mantyla &amp; Hamalainen (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="1"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="69"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="670.43726" y="2994.7866"/>
+        <viz:color r="255" g="175" b="187"/>
+      </node>
+      <node id="Marshall &amp; Carrejo (2008)" label="70">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Marshall &amp; Carrejo (2008)"/>
+          <attvalue for="year" value="2008"/>
+          <attvalue for="inclusion category" value="1"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate, graduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="modeling"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="70"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="438.06406" y="2209.8713"/>
+        <viz:color r="255" g="175" b="187"/>
+      </node>
+      <node id="Martinez-Torregrosa et al. (2006)" label="71">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Martinez-Torregrosa et al. (2006)"/>
+          <attvalue for="year" value="2006"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="history of science"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="71"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1269.816" y="2492.7537"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Matthews (2004)" label="72">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Matthews (2004)"/>
+          <attvalue for="year" value="2004"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="history of science + other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="72"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="194.45244" y="2202.993"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Meli et al. (2016)" label="73">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Meli et al. (2016)"/>
+          <attvalue for="year" value="2016"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="73"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="316.17154" y="2095.5012"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Meltzer (2002)" label="74">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Meltzer (2002)"/>
+          <attvalue for="year" value="2002"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="achievement"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="74"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="600.6669" y="3064.9116"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Meredith &amp; Marrongelle (2008)" label="75">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Meredith &amp; Marrongelle (2008)"/>
+          <attvalue for="year" value="2008"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="resources + symbolic forms"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="75"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="635.2919" y="3001.9531"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Modir et al. (2017)" label="76">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Modir et al. (2017)"/>
+          <attvalue for="year" value="2017"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="other + students' epistemologies"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="76"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-158.00346" y="3255.5227"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Modir et al. (2019)" label="77">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Modir et al. (2019)"/>
+          <attvalue for="year" value="2019"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="other + resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="77"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-331.0121" y="3050.1108"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Mulhall &amp; Gunstone (2008)" label="78">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Mulhall &amp; Gunstone (2008)"/>
+          <attvalue for="year" value="2008"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="in-service teachers"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="78"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="995.44525" y="2391.403"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Murillo-Gonzalez &amp; Burkholder (2022)" label="79">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Murillo-Gonzalez &amp; Burkholder (2022)"/>
+          <attvalue for="year" value="2022"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="university researchers + instructors + other experts"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="problem solving"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="79"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1008.11237" y="2463.785"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Nakakoji &amp; Wilson (2018)" label="80">
+        <attvalues>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="article" value="Nakakoji &amp; Wilson (2018)"/>
+          <attvalue for="year" value="2018"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics + quantum mechanics"/>
+          <attvalue for="framework" value="other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4703196347031963"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.49352750809061485"/>
+          <attvalue for="betweenesscentrality" value="0.04375839935917804"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="80"/>
+          <attvalue for="pageranks" value="0.008399513970377439"/>
+        </attvalues>
+        <viz:size value="11.2"/>
+        <viz:position x="177.85478" y="2734.638"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Nakakoji &amp; Wilson (2020)" label="81">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Nakakoji &amp; Wilson (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="undergraduate + instructor"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="other + problem solving"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="81"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-88.90792" y="3193.4497"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Nguyen &amp; Rebello (2011b)" label="82">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Nguyen &amp; Rebello (2011b)"/>
+          <attvalue for="year" value="2011"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="problem solving"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="82"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="574.5932" y="2934.0117"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Ngyuen &amp; Rebello (2011a)" label="83">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Ngyuen &amp; Rebello (2011a)"/>
+          <attvalue for="year" value="2011"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41700404858299595"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4555016181229774"/>
+          <attvalue for="betweenesscentrality" value="0.009316054749619504"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="83"/>
+          <attvalue for="pageranks" value="0.0059242209599746996"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="511.94907" y="2531.1443"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Nilsen et al. (2013)" label="84">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Nilsen et al. (2013)"/>
+          <attvalue for="year" value="2013"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="achievement + other"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="84"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1245.1313" y="2829.52"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Olatoye (2007)" label="85">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Olatoye (2007)"/>
+          <attvalue for="year" value="2007"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="achievement"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="85"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1263.7214" y="2908.8137"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Orton &amp; Roper (2000)" label="86">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Orton &amp; Roper (2000)"/>
+          <attvalue for="year" value="2000"/>
+          <attvalue for="inclusion category" value="2"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="unclear"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="86"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1133.7561" y="2883.4385"/>
+        <viz:color r="211" g="179" b="176"/>
+      </node>
+      <node id="Pask (2003)" label="87">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Pask (2003)"/>
+          <attvalue for="year" value="2003"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics"/>
+          <attvalue for="framework" value="formal analogies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41700404858299595"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4555016181229774"/>
+          <attvalue for="betweenesscentrality" value="0.009316054749619504"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="87"/>
+          <attvalue for="pageranks" value="0.0059242209599746996"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="386.5081" y="2589.9573"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Pepper et al. (2012)" label="88">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Pepper et al. (2012)"/>
+          <attvalue for="year" value="2012"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="conceptions + students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="88"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="540.9285" y="3082.5234"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Planinic et al. (2012)" label="89">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Planinic et al. (2012)"/>
+          <attvalue for="year" value="2012"/>
+          <attvalue for="inclusion category" value="4"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="89"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="484.72104" y="2259.6511"/>
+        <viz:color r="255" g="136" b="5"/>
+      </node>
+      <node id="Quale (2011a)" label="90">
+        <attvalues>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="article" value="Quale (2011a)"/>
+          <attvalue for="year" value="2011"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism + general relativity + mechanics + quantum mechanics"/>
+          <attvalue for="framework" value="constructivism"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.47465437788018433"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5"/>
+          <attvalue for="betweenesscentrality" value="0.049934320694398134"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="90"/>
+          <attvalue for="pageranks" value="0.010712324481496921"/>
+        </attvalues>
+        <viz:size value="11.8"/>
+        <viz:position x="185.79906" y="2767.5151"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Quale (2011b)" label="91">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Quale (2011b)"/>
+          <attvalue for="year" value="2011"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism + general relativity"/>
+          <attvalue for="framework" value="constructivism"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.32087227414330216"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.36569579288025894"/>
+          <attvalue for="betweenesscentrality" value="0.0020601878741413632"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="91"/>
+          <attvalue for="pageranks" value="0.005833773405486567"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="328.53934" y="2964.9636"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Radtka (2015)" label="92">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Radtka (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="2"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="unclear"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="92"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1239.8773" y="3017.3127"/>
+        <viz:color r="211" g="179" b="176"/>
+      </node>
+      <node id="Redish &amp; Kuo (2015)" label="93">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Redish &amp; Kuo (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="other + resources + symbolic forms"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="93"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="196.66386" y="2142.38"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Rodriguez et al. (2020)" label="94">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Rodriguez et al. (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="3"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="symbolic forms"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="94"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-73.39473" y="2248.2197"/>
+        <viz:color r="0" g="189" b="148"/>
+      </node>
+      <node id="Ryan &amp; Schermerhorn (2020)" label="95">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Ryan &amp; Schermerhorn (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="electricity and magnetism + quantum mechanics"/>
+          <attvalue for="framework" value="symbolic forms"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3515358361774744"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.39967637540453077"/>
+          <attvalue for="betweenesscentrality" value="0.016754438657131426"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="95"/>
+          <attvalue for="pageranks" value="0.005996255904769824"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="201.3413" y="2990.1335"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Sanchez &amp; Ponce (2020)" label="96">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Sanchez &amp; Ponce (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="elementary + middle + high school"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="achievement"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="96"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1004.4935" y="2952.0166"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Sherin (2001a)" label="97">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Sherin (2001a)"/>
+          <attvalue for="year" value="2001"/>
+          <attvalue for="inclusion category" value="3"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="other + symbolic forms"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="97"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="375.96817" y="2230.8823"/>
+        <viz:color r="0" g="189" b="148"/>
+      </node>
+      <node id="Sherin (2001b)" label="98">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Sherin (2001b)"/>
+          <attvalue for="year" value="2001"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="symbolic forms"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="98"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="152.08612" y="2094.9087"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Silva (2007)" label="99">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Silva (2007)"/>
+          <attvalue for="year" value="2007"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="modeling"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="99"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="492.51315" y="3114.074"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Sokolowski (2020)" label="100">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Sokolowski (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="unclear"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="100"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="976.531" y="2331.9353"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Torigoe &amp; Gladdin (2011)" label="101">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Torigoe &amp; Gladdin (2011)"/>
+          <attvalue for="year" value="2011"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="101"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="98.91164" y="2325.5615"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Tu et al. (2020)" label="102">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Tu et al. (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="quantum mechanics"/>
+          <attvalue for="framework" value="ACER + problem solving"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2761394101876676"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30080906148867315"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="102"/>
+          <attvalue for="pageranks" value="0.003620331178341671"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-157.92863" y="3193.6926"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Tuminaro &amp; Redish (2007)" label="103">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Tuminaro &amp; Redish (2007)"/>
+          <attvalue for="year" value="2007"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics"/>
+          <attvalue for="framework" value="resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41700404858299595"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4555016181229774"/>
+          <attvalue for="betweenesscentrality" value="0.009316054749619504"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="103"/>
+          <attvalue for="pageranks" value="0.0059242209599746996"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="483.46973" y="2467.238"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Tursucu et al. (2017)" label="104">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Tursucu et al. (2017)"/>
+          <attvalue for="year" value="2017"/>
+          <attvalue for="inclusion category" value="6"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="in-service teachers"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="conceptions + other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="104"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="356.4665" y="2119.4932"/>
+        <viz:color r="0" g="196" b="255"/>
+      </node>
+      <node id="Tursucu et al. (2020a)" label="105">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Tursucu et al. (2020a)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics + thermodynamics"/>
+          <attvalue for="framework" value="other + problem solving"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.36395759717314485"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.41181229773462785"/>
+          <attvalue for="betweenesscentrality" value="0.008124816590544863"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="105"/>
+          <attvalue for="pageranks" value="0.005862420553429615"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="-13.688932" y="2496.124"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Tursucu et al. (2020b)" label="106">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Tursucu et al. (2020b)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="high school + teacher"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="electrociry and magnetism + thermodynamics"/>
+          <attvalue for="framework" value="other + problem solving"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.34219269102990035"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3899676375404531"/>
+          <attvalue for="betweenesscentrality" value="0.00951015550496685"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="106"/>
+          <attvalue for="pageranks" value="0.005835087214250155"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="169.37045" y="2836.2446"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Tweney (2009)" label="107">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Tweney (2009)"/>
+          <attvalue for="year" value="2009"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="history of science"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="107"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="704.90076" y="2857.65"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Tweney (2011)" label="108">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Tweney (2011)"/>
+          <attvalue for="year" value="2011"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="history of science + modeling"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="108"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="464.55023" y="3005.5715"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Tzanakis &amp; Thomaidis (2000)" label="109">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Tzanakis &amp; Thomaidis (2000)"/>
+          <attvalue for="year" value="2000"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="history of science"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="109"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1286.9259" y="2437.214"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Uhden et al. (2012)" label="110">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Uhden et al. (2012)"/>
+          <attvalue for="year" value="2012"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="unclear"/>
+          <attvalue for="framework" value="modeling"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.52"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5384615384615384"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="110"/>
+          <attvalue for="pageranks" value="0.0043944986258665315"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1024.3154" y="2501.3298"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Van den Eynde et al. (2020)" label="111">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Van den Eynde et al. (2020)"/>
+          <attvalue for="year" value="2020"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="thermodynamics"/>
+          <attvalue for="framework" value="conceptual blending"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2717678100263852"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2923948220064725"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="111"/>
+          <attvalue for="pageranks" value="0.0034591624878220007"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-271.00458" y="2671.8516"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Van den Eynde et al. (2023)" label="112">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Van den Eynde et al. (2023)"/>
+          <attvalue for="year" value="2023"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="thermodynamics"/>
+          <attvalue for="framework" value="conceptual blending"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2717678100263852"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2923948220064725"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="112"/>
+          <attvalue for="pageranks" value="0.0034591624878220007"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-324.54498" y="2625.344"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Vemulapalli &amp; Byerly (2004)" label="113">
+        <attvalues>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="article" value="Vemulapalli &amp; Byerly (2004)"/>
+          <attvalue for="year" value="2004"/>
+          <attvalue for="inclusion category" value="7"/>
+          <attvalue for="type of study" value="theoretical"/>
+          <attvalue for="context" value="mechanics + quantum mechanics + thermodynamics"/>
+          <attvalue for="framework" value="other"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.403921568627451"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4498381877022653"/>
+          <attvalue for="betweenesscentrality" value="0.03091389370076604"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="113"/>
+          <attvalue for="pageranks" value="0.008337713563832354"/>
+        </attvalues>
+        <viz:size value="11.2"/>
+        <viz:position x="60.369255" y="2666.1304"/>
+        <viz:color r="115" g="192" b="0"/>
+      </node>
+      <node id="Von Korff &amp; Rebello (2012)" label="114">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Von Korff &amp; Rebello (2012)"/>
+          <attvalue for="year" value="2012"/>
+          <attvalue for="inclusion category" value="3"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="case study (1-4)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="constructivism + external representations + process-object layered framework"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="114"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="384.61368" y="2299.0115"/>
+        <viz:color r="0" g="189" b="148"/>
+      </node>
+      <node id="Walsh et al. (2007)" label="115">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Walsh et al. (2007)"/>
+          <attvalue for="year" value="2007"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="problem solving"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="115"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="238.87846" y="2107.294"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Wang (2005)" label="116">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Wang (2005)"/>
+          <attvalue for="year" value="2005"/>
+          <attvalue for="inclusion category" value="5"/>
+          <attvalue for="type of study" value="empirical, quantitative"/>
+          <attvalue for="age group" value="middle school"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="science"/>
+          <attvalue for="framework" value="achievement"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="116"/>
+          <attvalue for="pageranks" value="0.004416992300591485"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1032.3616" y="2918.573"/>
+        <viz:color r="76" g="70" b="62"/>
+      </node>
+      <node id="Wilcox &amp; Crosiglia (2019)" label="117">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Wilcox &amp; Crosiglia (2019)"/>
+          <attvalue for="year" value="2019"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics"/>
+          <attvalue for="framework" value="ACER + resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41700404858299595"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4555016181229774"/>
+          <attvalue for="betweenesscentrality" value="0.009316054749619504"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="117"/>
+          <attvalue for="pageranks" value="0.0059242209599746996"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="336.32632" y="2566.4714"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Wilcox &amp; Pollock (2015a)" label="118">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Wilcox &amp; Pollock (2015a)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="ACER + resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="118"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="744.42645" y="2746.8022"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Wilcox &amp; Pollock (2015b)" label="119">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Wilcox &amp; Pollock (2015b)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Large (> 500)"/>
+          <attvalue for="context" value="electricity and magnetism"/>
+          <attvalue for="framework" value="ACER + resources + students' epistemologies"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3169230769230769"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3567961165048544"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="119"/>
+          <attvalue for="pageranks" value="0.0035209628943670855"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="636.7862" y="2887.058"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Wilcox et al. (2013)" label="120">
+        <attvalues>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="article" value="Wilcox et al. (2013)"/>
+          <attvalue for="year" value="2013"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Medium (50-500)"/>
+          <attvalue for="context" value="electricity and magnetism + mechanics"/>
+          <attvalue for="framework" value="ACER"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41700404858299595"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4555016181229774"/>
+          <attvalue for="betweenesscentrality" value="0.009316054749619504"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="120"/>
+          <attvalue for="pageranks" value="0.0059242209599746996"/>
+        </attvalues>
+        <viz:size value="10.6"/>
+        <viz:position x="348.05142" y="2521.4631"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Wittmann &amp; Black (2015)" label="121">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Wittmann &amp; Black (2015)"/>
+          <attvalue for="year" value="2015"/>
+          <attvalue for="inclusion category" value="8"/>
+          <attvalue for="type of study" value="empirical, qualitative"/>
+          <attvalue for="age group" value="undergraduate"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="resources"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="121"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-3.2474747" y="2143.9553"/>
+        <viz:color r="223" g="137" b="255"/>
+      </node>
+      <node id="Woolnough (2000)" label="122">
+        <attvalues>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="article" value="Woolnough (2000)"/>
+          <attvalue for="year" value="2000"/>
+          <attvalue for="inclusion category" value="1"/>
+          <attvalue for="type of study" value="empirical, mixed"/>
+          <attvalue for="age group" value="high school"/>
+          <attvalue for="sample size" value="Small (&lt; 50)"/>
+          <attvalue for="context" value="mechanics"/>
+          <attvalue for="framework" value="conceptions"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.33993399339933994"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38349514563106796"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="nodecolor-multimode" value="red"/>
+          <attvalue for="no." value="122"/>
+          <attvalue for="pageranks" value="0.003548296233546546"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="90.77748" y="2224.935"/>
+        <viz:color r="255" g="175" b="187"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Akatugba &amp; Wallace (2009)" target="science"/>
+      <edge id="1" source="Al-Omari &amp; Miqdadi (2014)" target="electricity and magnetism"/>
+      <edge id="2" source="Albe et al. (2001)" target="electricity and magnetism"/>
+      <edge id="3" source="Amos &amp; Heckler (2018)" target="science"/>
+      <edge id="4" source="Angell et al. (2008)" target="mechanics"/>
+      <edge id="5" source="Badmus &amp; Jita (2023)" target="science"/>
+      <edge id="6" source="Bajracharya &amp; Thompson (2016)" target="electricity and magnetism"/>
+      <edge id="7" source="Bajracharya &amp; Thompson (2016)" target="thermodynamics"/>
+      <edge id="8" source="Bajracharya et al. (2019)" target="thermodynamics"/>
+      <edge id="9" source="Bing &amp; Redish (2008)" target="quantum mechanics"/>
+      <edge id="10" source="Bing &amp; Redish (2009)" target="mechanics"/>
+      <edge id="11" source="Bollen et al. (2015)" target="electricity and magnetism"/>
+      <edge id="12" source="Bollen et al. (2016)" target="electricity and magnetism"/>
+      <edge id="13" source="Branchetti et al. (2019)" target="quantum mechanics"/>
+      <edge id="14" source="Branchetti et al. (2019)" target="thermodynamics"/>
+      <edge id="15" source="Brush (2015)" target="general relativity"/>
+      <edge id="16" source="Brush (2015)" target="mechanics"/>
+      <edge id="17" source="Brush (2015)" target="quantum mechanics"/>
+      <edge id="18" source="Brush (2015)" target="thermodynamics"/>
+      <edge id="19" source="Burkholder et al. (2020)" target="mechanics"/>
+      <edge id="20" source="Burkholder et al. (2021)" target="electricity and magnetism"/>
+      <edge id="21" source="Burkholder et al. (2021)" target="mechanics"/>
+      <edge id="22" source="Caballero et al. (2015)" target="unclear"/>
+      <edge id="23" source="Campuzano et al. (2018)" target="mechanics"/>
+      <edge id="24" source="Capizzo (2006)" target="electricity and magnetism"/>
+      <edge id="25" source="Capizzo (2006)" target="mechanics"/>
+      <edge id="26" source="Capizzo (2006)" target="optics"/>
+      <edge id="27" source="Capizzo (2006)" target="thermodynamics"/>
+      <edge id="28" source="Carli et al. (2020)" target="mechanics"/>
+      <edge id="29" source="Carrejo &amp; Marshall (2007)" target="mechanics"/>
+      <edge id="30" source="Ceuppens et al. (2018)" target="mechanics"/>
+      <edge id="31" source="Chari et al. (2019)" target="electricity and magnetism"/>
+      <edge id="32" source="de Ataide &amp; Greca (2013)" target="thermodynamics"/>
+      <edge id="33" source="De Lozano &amp; Cardenas (2002)" target="mechanics"/>
+      <edge id="34" source="de Winter &amp; Airey (2022)" target="unclear"/>
+      <edge id="35" source="Dini &amp; Hammer (2017)" target="quantum mechanics"/>
+      <edge id="36" source="Domert et al. (2007)" target="mechanics"/>
+      <edge id="37" source="Doughty et al. (2014)" target="electricity and magnetism"/>
+      <edge id="38" source="Dreyfus et al. (2017)" target="quantum mechanics"/>
+      <edge id="39" source="Forinash et al. (2000)" target="mechanics"/>
+      <edge id="40" source="Galili (2018)" target="electricity and magnetism"/>
+      <edge id="41" source="Galili (2018)" target="mechanics"/>
+      <edge id="42" source="Gifford &amp; Finkelstein (2020)" target="quantum mechanics"/>
+      <edge id="43" source="Gifford &amp; Finkelstein (2021)" target="quantum mechanics"/>
+      <edge id="44" source="Gingras (2015)" target="quantum mechanics"/>
+      <edge id="45" source="Gire &amp; Price (2014)" target="electricity and magnetism"/>
+      <edge id="46" source="Gire &amp; Price (2015)" target="quantum mechanics"/>
+      <edge id="47" source="Greca &amp; Moreira (2002)" target="electricity and magnetism"/>
+      <edge id="48" source="Greca &amp; Moreira (2002)" target="mechanics"/>
+      <edge id="49" source="Gupta &amp; Elby (2011)" target="mechanics"/>
+      <edge id="50" source="Hadfield &amp; Wieman (2010)" target="thermodynamics"/>
+      <edge id="51" source="Hansson et al. (2015)" target="atomic physics"/>
+      <edge id="52" source="Hansson et al. (2015)" target="electricity and magnetism"/>
+      <edge id="53" source="Hansson et al. (2015)" target="mechanics"/>
+      <edge id="54" source="Hansson et al. (2015)" target="optics"/>
+      <edge id="55" source="Haestoe et al. (2019)" target="science"/>
+      <edge id="56" source="Holmberg &amp; Bernhard (2017)" target="science"/>
+      <edge id="57" source="Hu &amp; Rebello (2013a)" target="electricity and magnetism"/>
+      <edge id="58" source="Hu &amp; Rebello (2013b)" target="electricity and magnetism"/>
+      <edge id="59" source="Hu &amp; Rebello (2014)" target="electricity and magnetism"/>
+      <edge id="60" source="Hull et al. (2013)" target="mechanics"/>
+      <edge id="61" source="Ibrahim et al. (2017)" target="mechanics"/>
+      <edge id="62" source="Izsak (2000)" target="mechanics"/>
+      <edge id="63" source="Jensen et al. (2017)" target="electricity and magnetism"/>
+      <edge id="64" source="Jensen et al. (2017)" target="mechanics"/>
+      <edge id="65" source="Kanderakis (2016)" target="mechanics"/>
+      <edge id="66" source="Kanderakis (2016)" target="thermodynamics"/>
+      <edge id="67" source="Kapucu (2014)" target="unclear"/>
+      <edge id="68" source="Kapucu et al. (2016)" target="unclear"/>
+      <edge id="69" source="Karakok (2019)" target="quantum mechanics"/>
+      <edge id="70" source="Karam (2014)" target="electricity and magnetism"/>
+      <edge id="71" source="Karam &amp; Krey (2015)" target="mechanics"/>
+      <edge id="72" source="Karam &amp; Krey (2015)" target="optics"/>
+      <edge id="73" source="Kneubil &amp; Robilotta (2015)" target="electricity and magnetism"/>
+      <edge id="74" source="Kragh (2015)" target="unclear"/>
+      <edge id="75" source="Kuo et al. (2012)" target="mechanics"/>
+      <edge id="76" source="Kuo et al. (2020)" target="mechanics"/>
+      <edge id="77" source="Kustusch et al. (2014)" target="thermodynamics"/>
+      <edge id="78" source="Lichtenberger et al. (2017)" target="mechanics"/>
+      <edge id="79" source="Liu (2022)" target="mechanics"/>
+      <edge id="80" source="Liu &amp; Liu (2011)" target="unclear"/>
+      <edge id="81" source="Lopez-Gay et al. (2015)" target="atomic physics"/>
+      <edge id="82" source="Lopez-Gay et al. (2015)" target="mechanics"/>
+      <edge id="83" source="Lyublinskaya &amp; Petrova (2021)" target="unclear"/>
+      <edge id="84" source="Ma &amp; Ma (2005)" target="science"/>
+      <edge id="85" source="Manogue et al. (2006)" target="electricity and magnetism"/>
+      <edge id="86" source="Mantyla &amp; Hamalainen (2015)" target="electricity and magnetism"/>
+      <edge id="87" source="Marshall &amp; Carrejo (2008)" target="mechanics"/>
+      <edge id="88" source="Martinez-Torregrosa et al. (2006)" target="unclear"/>
+      <edge id="89" source="Matthews (2004)" target="mechanics"/>
+      <edge id="90" source="Meli et al. (2016)" target="mechanics"/>
+      <edge id="91" source="Meltzer (2002)" target="electricity and magnetism"/>
+      <edge id="92" source="Meredith &amp; Marrongelle (2008)" target="electricity and magnetism"/>
+      <edge id="93" source="Modir et al. (2017)" target="quantum mechanics"/>
+      <edge id="94" source="Modir et al. (2019)" target="quantum mechanics"/>
+      <edge id="95" source="Mulhall &amp; Gunstone (2008)" target="unclear"/>
+      <edge id="96" source="Murillo-Gonzalez &amp; Burkholder (2022)" target="unclear"/>
+      <edge id="97" source="Nakakoji &amp; Wilson (2018)" target="electricity and magnetism"/>
+      <edge id="98" source="Nakakoji &amp; Wilson (2018)" target="mechanics"/>
+      <edge id="99" source="Nakakoji &amp; Wilson (2018)" target="quantum mechanics"/>
+      <edge id="100" source="Nakakoji &amp; Wilson (2020)" target="quantum mechanics"/>
+      <edge id="101" source="Nguyen &amp; Rebello (2011b)" target="electricity and magnetism"/>
+      <edge id="102" source="Ngyuen &amp; Rebello (2011a)" target="electricity and magnetism"/>
+      <edge id="103" source="Ngyuen &amp; Rebello (2011a)" target="mechanics"/>
+      <edge id="104" source="Nilsen et al. (2013)" target="science"/>
+      <edge id="105" source="Olatoye (2007)" target="science"/>
+      <edge id="106" source="Orton &amp; Roper (2000)" target="science"/>
+      <edge id="107" source="Pask (2003)" target="electricity and magnetism"/>
+      <edge id="108" source="Pask (2003)" target="mechanics"/>
+      <edge id="109" source="Pepper et al. (2012)" target="electricity and magnetism"/>
+      <edge id="110" source="Planinic et al. (2012)" target="mechanics"/>
+      <edge id="111" source="Quale (2011a)" target="electricity and magnetism"/>
+      <edge id="112" source="Quale (2011a)" target="general relativity"/>
+      <edge id="113" source="Quale (2011a)" target="mechanics"/>
+      <edge id="114" source="Quale (2011a)" target="quantum mechanics"/>
+      <edge id="115" source="Quale (2011b)" target="electricity and magnetism"/>
+      <edge id="116" source="Quale (2011b)" target="general relativity"/>
+      <edge id="117" source="Radtka (2015)" target="science"/>
+      <edge id="118" source="Redish &amp; Kuo (2015)" target="mechanics"/>
+      <edge id="119" source="Rodriguez et al. (2020)" target="mechanics"/>
+      <edge id="120" source="Ryan &amp; Schermerhorn (2020)" target="electricity and magnetism"/>
+      <edge id="121" source="Ryan &amp; Schermerhorn (2020)" target="quantum mechanics"/>
+      <edge id="122" source="Sanchez &amp; Ponce (2020)" target="science"/>
+      <edge id="123" source="Sherin (2001a)" target="mechanics"/>
+      <edge id="124" source="Sherin (2001b)" target="mechanics"/>
+      <edge id="125" source="Silva (2007)" target="electricity and magnetism"/>
+      <edge id="126" source="Sokolowski (2020)" target="unclear"/>
+      <edge id="127" source="Torigoe &amp; Gladdin (2011)" target="mechanics"/>
+      <edge id="128" source="Tu et al. (2020)" target="quantum mechanics"/>
+      <edge id="129" source="Tuminaro &amp; Redish (2007)" target="electricity and magnetism"/>
+      <edge id="130" source="Tuminaro &amp; Redish (2007)" target="mechanics"/>
+      <edge id="131" source="Tursucu et al. (2017)" target="mechanics"/>
+      <edge id="132" source="Tursucu et al. (2020a)" target="mechanics"/>
+      <edge id="133" source="Tursucu et al. (2020a)" target="thermodynamics"/>
+      <edge id="134" source="Tursucu et al. (2020b)" target="electricity and magnetism"/>
+      <edge id="135" source="Tursucu et al. (2020b)" target="thermodynamics"/>
+      <edge id="136" source="Tweney (2009)" target="electricity and magnetism"/>
+      <edge id="137" source="Tweney (2011)" target="electricity and magnetism"/>
+      <edge id="138" source="Tzanakis &amp; Thomaidis (2000)" target="unclear"/>
+      <edge id="139" source="Uhden et al. (2012)" target="unclear"/>
+      <edge id="140" source="Van den Eynde et al. (2020)" target="thermodynamics"/>
+      <edge id="141" source="Van den Eynde et al. (2023)" target="thermodynamics"/>
+      <edge id="142" source="Vemulapalli &amp; Byerly (2004)" target="mechanics"/>
+      <edge id="143" source="Vemulapalli &amp; Byerly (2004)" target="quantum mechanics"/>
+      <edge id="144" source="Vemulapalli &amp; Byerly (2004)" target="thermodynamics"/>
+      <edge id="145" source="Von Korff &amp; Rebello (2012)" target="mechanics"/>
+      <edge id="146" source="Walsh et al. (2007)" target="mechanics"/>
+      <edge id="147" source="Wang (2005)" target="science"/>
+      <edge id="148" source="Wilcox &amp; Crosiglia (2019)" target="electricity and magnetism"/>
+      <edge id="149" source="Wilcox &amp; Crosiglia (2019)" target="mechanics"/>
+      <edge id="150" source="Wilcox &amp; Pollock (2015a)" target="electricity and magnetism"/>
+      <edge id="151" source="Wilcox &amp; Pollock (2015b)" target="electricity and magnetism"/>
+      <edge id="152" source="Wilcox et al. (2013)" target="electricity and magnetism"/>
+      <edge id="153" source="Wilcox et al. (2013)" target="mechanics"/>
+      <edge id="154" source="Wittmann &amp; Black (2015)" target="mechanics"/>
+      <edge id="155" source="Woolnough (2000)" target="mechanics"/>
+    </edges>
+  </graph>
+</gexf>
