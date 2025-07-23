@@ -1,4 +1,100 @@
-This is the site<br>
-<a href="network/index.html">View Network</a><br>
-<a href="context-frameworks/index.html">View Context-Framework network</a><br>
-<a href="TheRoleofMathematicsinPhysics/index.html">View Other Network</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Networks: Roles of Mathematics in Physics Education</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    h2 {
+      color: #555;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .network-link {
+      margin-bottom: 2rem;
+    }
+    .preview-img {
+      width: 100%;
+      max-width: 600px;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Interactive Networks</h1>
+  <p>
+    This page presents interactive network visualizations from the paper:<br />
+    <strong>“Roles of Mathematics in Physics Education: A Systematic Review”</strong><br />
+    by Elina Palmgren, Tommi Kokkonen, and Jesper Bruun (2025).
+  </p>
+
+  <p>
+    The study systematically reviewed 122 research articles and used network analysis to explore how mathematics is conceptualized in physics education research. The visualizations below represent key relationships between article characteristics, theoretical frameworks, physics contexts, and the roles assigned to mathematics.
+  </p>
+
+  <h2>Explore the Networks</h2>
+
+  <div class="network-link">
+    <h3>Figure 4: Physics Contexts × Articles</h3>
+    <a href="networks/context_network/index.html" target="_blank">
+      <img src="networks/context_network/preview.png" alt="Context network preview" class="preview-img" />
+    </a>
+    <p>
+      <a href="networks/context_network/index.html" target="_blank">
+        🔗 Open interactive network
+      </a><br/>
+      This network shows which physics contexts (e.g., mechanics, E&M) were studied in each article.
+    </p>
+  </div>
+
+  <div class="network-link">
+    <h3>Figure 5: Theoretical Frameworks × Articles</h3>
+    <a href="networks/framework_network/index.html" target="_blank">
+      <img src="networks/framework_network/preview.png" alt="Framework network preview" class="preview-img" />
+    </a>
+    <p>
+      <a href="networks/framework_network/index.html" target="_blank">
+        🔗 Open interactive network
+      </a><br/>
+      This network visualizes the use of different theoretical frameworks across the reviewed literature.
+    </p>
+  </div>
+
+  <div class="network-link">
+    <h3>Figure 6: Framework × Context Backbone Network</h3>
+    <a href="networks/backbone_network/index.html" target="_blank">
+      <img src="networks/backbone_network/preview.png" alt="Backbone network preview" class="preview-img" />
+    </a>
+    <p>
+      <a href="networks/backbone_network/index.html" target="_blank">
+        🔗 Open interactive network
+      </a><br/>
+      This network highlights the strongest links between theoretical frameworks and physics contexts.
+    </p>
+  </div>
+
+  <h2>Citation</h2>
+  <p>
+    Palmgren, E., Kokkonen, T., & Bruun, J. (2025). Roles of Mathematics in Physics Education: A Systematic Review. <em>Physical Review Physics Education Research</em> (in review).
+  </p>
+
+</body>
+</html>
+
