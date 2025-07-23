@@ -4,7 +4,7 @@
 This repository contains interactive network visualizations from the paper:
 
 **Palmgren, E., Kokkonen, T., & Bruun, J. (2025). _Roles of Mathematics in Physics Education: A Systematic Review._**  
-Submitted to *Physical Review Physics Education Research*.
+Accepted in *Physical Review Physics Education Research*.
 
 We systematically reviewed 122 research articles to explore how mathematics is conceptualized in physics education research. Using network analysis, we visualized key patterns across article topics, theoretical frameworks, physics contexts, and roles of mathematics.
 
@@ -13,7 +13,7 @@ We systematically reviewed 122 research articles to explore how mathematics is c
 ## 🔗 Interactive Network Visualizations
 
 ### **Figure 4: Physics Contexts × Articles**
-[![Preview](networks/context_network/preview.png)](networks/context_network/index.html)  
+[![Preview](docs/networks/context_network/preview.png)](docs/networks/context_network/index.html)  
 🔍 _Which physics contexts (e.g., mechanics, E&M) were studied in each article_  
 ➡️ [Open interactive network](networks/context_network/index.html)
 
