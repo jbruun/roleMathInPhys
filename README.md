@@ -20,18 +20,30 @@ We systematically reviewed 122 research articles to explore how mathematics is c
 ---
 
 ### **Figure 5: Theoretical Frameworks × Articles**
-[![Preview](networks/framework_network/preview.png)](networks/framework_network/index.html)  
+[![Preview](docs/networks/framework_network/preview.png)](docs/networks/framework_network/index.html)  
 🔍 _Which theoretical frameworks were used in different studies_  
 ➡️ [Open interactive network](networks/framework_network/index.html)
 
 ---
 
 ### **Figure 6: Framework × Context Backbone Network**
-[![Preview](networks/backbone_network/preview.png)](networks/backbone_network/index.html)  
+[![Preview](docs/networks/backbone_network/preview.png)](docs/networks/backbone_network/index.html)  
 🔍 _Strongest co-occurrence patterns between frameworks and physics contexts_  
 ➡️ [Open interactive network](networks/backbone_network/index.html)
 
 ---
+### **Additional network: Theoretical Frameworks-Contexts Articles**
+[![Preview](docs/networks/context_frame_network/preview.png)](docs/networks/context_frame_network/index.html)  
+🔍 _Which heoretical frameworks as well as contexts were used in the reviewed literature_  
+➡️ [Open interactive network](networks/backbone_network/index.html)
+
+---
+### **Gephi File**
+[Download the Gephi project file](networks.gephi) (includes all nodes, edges, and layout used in the visualizations).
+Find and install Gephi from [https://gephi.org](https://gephi.org). 
+
+---
+
 
 ## 📄 Citation
 
