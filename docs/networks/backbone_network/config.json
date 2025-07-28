@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Jesper Bruun"
+  },
+  "text": {
+    "more": "The network shows that some contexts (or topics) are studied more often with some frameworks. For instance, there seems to be a preference for the context of mechanics when using a conceptions framework. Note that achievement and science are a distinct pair. Note also that ACER, resources and students\u0027 epistemologies are all frameworks. Although there is a preference for these frameworks to be used together, studies that make use of these frameworks do investigate particular contexts. However, the connections were filtered out in the backbone extraction. ",
+    "intro": "Backbone network of a framework and context co-occurrence network. Nodes represent context and framework codes. A link between two nodes represents the number of articles that have been assigned both codes. Thus, Science and Achievement have both been assigned to six articles.There are 23 nodes and 29 weighted links.\nThe backbone of the network as used here, shows only the most prominent connections from a given nodes perspective. \nClick on nodes to see connections and information about the node. ",
+    "title": "Context-framework backbone network"
+  },
+  "legend": {
+    "edgeLabel": "Assigned context",
+    "colorLabel": "Context",
+    "nodeLabel": "Contexts"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Type",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
