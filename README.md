@@ -10,6 +10,8 @@ We systematically reviewed 122 research articles to explore how mathematics is c
 
 ➡️ [Open web-page with interactive networks](https://jbruun.github.io/roleMathInPhys/)
 
+Below, you can access source code for the interactive networks. Interactive networks were made witht he Sigma.js plugin for [Gephi](https://gephi.org). 
+
 ---
 
 ## 🔗 Interactive Network Visualizations
@@ -17,27 +19,27 @@ We systematically reviewed 122 research articles to explore how mathematics is c
 ### **Figure 4: Physics Contexts × Articles**
 [![Preview](docs/networks/context_network/preview.png)](docs/networks/context_network/index.html)  
 🔍 _Which physics contexts (e.g., mechanics, E&M) were studied in each article_  
-➡️ [Open interactive network](docs/networks/context_network/)
+➡️ [Open source code for interactive network network](docs/networks/context_network/)
 
 ---
 
 ### **Figure 5: Theoretical Frameworks × Articles**
 [![Preview](docs/networks/framework_network/preview.png)](docs/networks/framework_network/index.html)  
 🔍 _Which theoretical frameworks were used in different studies_  
-➡️ [Open interactive network](docs/networks/framework_network/index.html)
+➡️ [Open source code for interactive network ](docs/networks/framework_network/)
 
 ---
 
 ### **Figure 6: Framework × Context Backbone Network**
 [![Preview](docs/networks/backbone_network/preview.png)](docs/networks/backbone_network/index.html)  
 🔍 _Strongest co-occurrence patterns between frameworks and physics contexts_  
-➡️ [Open interactive network](docs/networks/backbone_network/index.html)
+➡️ [Open source code for interactive network network](docs/networks/backbone_network/index.html)
 
 ---
 ### **Additional network: Theoretical Frameworks-Contexts Articles**
 [![Preview](docs/networks/context_frame_network/preview.png)](docs/networks/context_frame_network/index.html)  
 🔍 _Which heoretical frameworks as well as contexts were used in the reviewed literature_  
-➡️ [Open interactive network](docs/networks/backbone_network/index.html)
+➡️ [Open source code for interactive network network](docs/networks/backbone_network/index.html)
 
 ---
 ### **Gephi File**
