@@ -8,6 +8,8 @@ DOI: https://doi.org/10.1103/wwww-gwp8
 
 We systematically reviewed 122 research articles to explore how mathematics is conceptualized in physics education research. Using network analysis, we visualized key patterns across article topics, theoretical frameworks, physics contexts, and roles of mathematics.
 
+
+
 ---
 
 ## 🔗 Interactive Network Visualizations
@@ -15,7 +17,7 @@ We systematically reviewed 122 research articles to explore how mathematics is c
 ### **Figure 4: Physics Contexts × Articles**
 [![Preview](docs/networks/context_network/preview.png)](docs/networks/context_network/index.html)  
 🔍 _Which physics contexts (e.g., mechanics, E&M) were studied in each article_  
-➡️ [Open interactive network](docs/networks/context_network/index.html)
+➡️ [Open interactive network](docs/networks/context_network/)
 
 ---
 
