@@ -7,8 +7,7 @@ This repository contains interactive network visualizations from the paper:
 DOI: https://doi.org/10.1103/wwww-gwp8
 
 We systematically reviewed 122 research articles to explore how mathematics is conceptualized in physics education research. Using network analysis, we visualized key patterns across article topics, theoretical frameworks, physics contexts, and roles of mathematics.
-
-
+➡️ [Open web-page](https://jbruun.github.io/roleMathInPhys/networks/context_network/index.html)
 
 ---
 
